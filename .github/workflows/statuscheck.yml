@@ -1,0 +1,17 @@
+name: Status Check de pruebas
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+    branches:
+      - develop
+      - main
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Echo the message
+        run: echo "Hi Devops"
