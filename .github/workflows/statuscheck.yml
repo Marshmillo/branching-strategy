@@ -12,7 +12,7 @@ on:
 jobs:
   hello_world:
     name: status check de pruebas
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
       - name: Echo the message
         run: echo "Hi Devops"
